@@ -40,5 +40,5 @@ if  __name__ == '__main__':
     enframe=frameMat(signal , framesize,overlap)
     print ('signal:')
     print (signal) 
-    print ('after frameMat function:')    
+    print ('after framemat function:')
     print (enframe)

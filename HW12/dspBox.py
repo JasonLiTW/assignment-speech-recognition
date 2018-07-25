@@ -67,5 +67,5 @@ if  __name__ == '__main__':
     frameCut=frameMat(signal , framesize,overlap)
     print('signal:')
     print(signal)
-    print('after frameMat function:')
+    print('after framemat function:')
     print(frameCut)

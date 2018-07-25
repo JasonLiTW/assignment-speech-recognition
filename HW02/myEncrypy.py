@@ -1,7 +1,7 @@
 import scipy.io.wavfile as wav
 import matplotlib.pyplot as plt
 import numpy as np
-# B10417022 李政瑩
+
 rate, signal = wav.read('./hello.wav') # hello.wav只有單聲道
 sigSize = np.size(signal)
 time = np.linspace(0, sigSize, sigSize) / rate
